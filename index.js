@@ -10,7 +10,9 @@ const fn =()=>{
  }
  document.querySelector("#sp3").style.color="#051937";
 }
-fn();
+setTimeout(() => {
+ fn(); 
+},3000);
 //  =============================================================================//
 var form = document.getElementById("my-form");
     
